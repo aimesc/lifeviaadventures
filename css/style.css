@@ -168,14 +168,20 @@ body .sm-button {
 
 #title {
     font-family: 'Lato', sans-serif;
-    color: #f8e2c7;
-    /*
-    color: #FAA369;
-    */
-    font-size: 48px;
-    text-shadow: 2px 2px #D1BA99;
+    color: #FCBA8D;
+        /*
+        color: #FAA369;
+        */
+    font-size: 65px;
+    font-size: 5vw;
+    opacity: .95;
+        /*text-shadow: 2px 2px #fff;*/   
+        /* Othertext colors used 
+        #F5CBA2
+        #FCBB90
+        #D1BA99
+        #C9B8B3 
+        */
 }
-
-
 
 
