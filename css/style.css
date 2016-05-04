@@ -32,12 +32,14 @@ body .header{
   background: rgba(255,255,255,0.45);
   color: #fff;
   border-color: white;
+  text-decoration: none;
 }
 
 .menu a.active {
   background: rgba(255,255,255,0.45);
   color: #fff;
   border-color: white;
+  text-decoration: none;
 }
 .main p {
   color: #2E3B4E;
@@ -136,6 +138,14 @@ body .sm-button {
   letter-spacing: 1px;
 }
 
+.demo1 .sm-button {
+  left: 50px;
+  top: 50px;
+  text-transform: uppercase;
+  right: auto;
+  color: #f8e2c7;
+}
+
 .demo2 .sm-button {
   top: 50%;
   margin-top: -25px;
@@ -163,7 +173,7 @@ body .sm-button {
     color: #FAA369;
     */
     font-size: 48px;
-    text-shadow: 2px 2px black;
+    text-shadow: 2px 2px grey;
     
 }
 

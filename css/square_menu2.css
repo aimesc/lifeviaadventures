@@ -166,7 +166,7 @@ body.sm-activate {
 /* Internal menu opacity
   opacity: 1;
 */
-  opacity: .7;
+  opacity: .8;
 }
 
 .sm-menu .sm-nav:after {
@@ -202,7 +202,10 @@ body.sm-activate {
   margin-bottom: 32px;
   font-weight: 300;
   display: block;
-  color: white;
+/* Font color for inside open menu */
+  color: #e3daeb;
+  opacity: 1.0;
+  z-index: 1000;
 }
 .sm-menu .sm-nav .nav-inner > a:hover{
   color: #
@@ -240,7 +243,7 @@ body .sm-button {
   top: 20px;
   right: 20px;
 /* Menu button color */
-  color: white;
+  color: #f8e2c7;
   font-weight: bold;
   padding: 2px 5px;
   z-index: 102;

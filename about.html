@@ -1,10 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class="demo2 no-js">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" class="demo1 no-js">
 <!-- <html lang="en" class="demo2 no-js"> This is from 3D Menu-->
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Life via Adventures</title>
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
 	    
 	<link href="css/screen.css" rel="stylesheet" type="text/css" /> <!-- This is for Tubular -->
     <link rel="stylesheet" type="text/css" href="css/default.css" /> <!-- This is for 3D Menu -->
@@ -24,7 +32,7 @@
     
     <script type="text/javascript" src="js/jquery-1.12.3.min.js"></script>
     <script type="text/javascript" src="js/jquery.square_menu.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/square_menu.css" /> <!-- This is for 3D Menu -->
+	<link rel="stylesheet" type="text/css" href="css/square_menu2.css" /> <!-- This is for 3D Menu -->
 	<link rel="stylesheet" type="text/css" href="css/style.css" /> <!-- This is for 3D Menu -->
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
@@ -42,21 +50,56 @@
 
 </head>
 <body>
+<!-- 3D Menu -->
     
+<body class="demo1">
+
+    <div class="main">
+	    <div class="page_container">
+<!--            
+            <div class="box">
+	        <div class="direction">
+	          Life via Adventures
+	        </div>
+            </div>
+-->
+	      <div class="sidemenu">
+	        <nav class="left">
+	          <a href="index.html">Home</a>
+	          <a href="about.html">About</a>
+	          <a href="contact.html">Contact</a>
+	        </nav>
+	        <nav class="right">
+	          <a href="newyork.html">New York</a>
+	          <a href="construction.html">Alaska</a>
+	          <a href="construction.html">North Carolina</a>
+	          <a href="construction.html">France</a>
+	          <a href="construction.html">Italy</a>
+	        </nav>
+	      </div>
+	    </div>
+	</div>
+	<script type="text/javascript">
+	  $(document).ready( function() {
+	    $(".sidemenu").square_menu();
+	    });
+  	</script>
+		
+	</body>    
 
 <!-- Tubular Video Controls -->    
     
 <div id="wrapper" class="clearfix">
 	<div id="main">
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-xs-12">
-                <a href="index.html"><p style=color:white text-align="center">Click for Home</p></a>
-            </div>
-        </div>
         <p id="video-controls" style="color:#FAA369">Video controls:<br /><a href="#" class="tubular-play">Play</a> | <a href="#" class="tubular-pause">Pause</a> | <a href="#" class="tubular-volume-up">Volume Up</a> | <a href="#" class="tubular-volume-down">Volume Down</a> | <a href="#" class="tubular-mute">Mute</a></p>
 	</div>
 </div><!-- #wrapper -->
 
+<!-- Audio -->
+
+<div id="audioContainer">    
+    <audio src="media/background.mp3" autoplay="true" loop="loop"></audio>
+</div>
 
     
 </body>
